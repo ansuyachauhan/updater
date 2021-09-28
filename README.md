@@ -1,19 +1,20 @@
 # updater
 
-
+- Clone this repo in local (git clone)
+- run npm install
 - Command to  Execute Test:
   
-  npx cypress run --record --spec "cypress/integration/updaterdotCom.js"
+  npx cypress run --spec "cypress/integration/updaterdotCom.js"
   
   Questions we want you to answer:
   
 ● Why did you choose this testing strategy to test the above scenario?
- The implemented testing strategy allows to verify UI user actions as well as data verification.
+ The implemented testing strategy allows to verify UI user actions as well as data verification. Most of the elements didn't have data-attributes so you would see contains() being used a lot
 
 ● Why did you choose the particular framework you used? Are there drawbacks to it?
    Writing time for tests in Cypress frmework is lower compared to other frameworks, Also this the same framwork I use at my current workplace.
    It can be integrated with any CI tool equipped for headless execution with command-line options.
-   It captures screenshots of test execution automatically in case of test failure. This is helpful to diagnose bugs and debug. Cypress don't support some browsers such as IE.
+   It captures screenshots of test execution automatically in case of test failure. This is helpful to diagnose bugs and debug. Cypress don't support some browsers   such as IE.
    
 ● What is your strategy to integrate this to a CI/CD pipeline?
 
@@ -32,4 +33,4 @@ it be to maintain as feature and business requirements change?
 
 ● What additional testing approaches/methodologies would you use given the time
 and resources?
-I would  like to add Accessibility testing in the same framework. Somthing i haven't tried yet. 
+I would  like to add Accessibility testing in the same framework.  The end goal is to build a reliable regression test which give a very good coverage and runs on every PR across all the apps. 
