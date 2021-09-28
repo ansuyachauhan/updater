@@ -9,10 +9,11 @@
   Questions we want you to answer:
   
 ● Why did you choose this testing strategy to test the above scenario?
- The implemented testing strategy allows to verify UI user actions as well as data verification. Most of the elements didn't have data-attributes so you would see contains() being used a lot
+ The implemented testing strategy allows to verify UI user actions as well as data verification. Most of the elements didn't have data-attributes so you would see contains() being used in the test to select elements. Added graphql response verificaiotn with UI to validate correct data is being rendered
 
 ● Why did you choose the particular framework you used? Are there drawbacks to it?
-   Writing time for tests in Cypress frmework is lower compared to other frameworks, Also this the same framwork I use at my current workplace.
+   Setting up cypress is very quick and  Writing time for tests in Cypress frmework is lower compared to other frameworks, Also this the same framwork I use at my   
+   current workplace.
    It can be integrated with any CI tool equipped for headless execution with command-line options.
    It captures screenshots of test execution automatically in case of test failure. This is helpful to diagnose bugs and debug. Cypress don't support some browsers   such as IE.
    
