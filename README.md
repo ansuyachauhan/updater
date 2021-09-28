@@ -1,7 +1,7 @@
 # updater
 
 
-# Command to  Execute Test:
+- Command to  Execute Test:
   
   npx cypress run --record --spec "cypress/integration/updaterdotCom.js"
   
