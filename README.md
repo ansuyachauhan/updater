@@ -1,4 +1,4 @@
-# updater
+# README
 
 - Clone this repo in local (git clone)
 - run npm install
