@@ -1,0 +1,6 @@
+{
+ "baseUrl": "https://app.preprod.updatron.com/",
+ "retries": {
+    "runMode": 2
+  }
+}
