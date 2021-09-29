@@ -4,7 +4,7 @@
 - run npm install
 - Command to  Execute Test:
   
-  npx cypress run --spec "cypress/integration/updaterdotCom.js"
+  npx cypress run --spec "cypress/integration/offers.spec.js"
   
   Questions we want you to answer:
   
