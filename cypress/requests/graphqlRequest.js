@@ -1,6 +1,6 @@
 
 export const availableOffersgql = ()=>{
-    cy.intercept('POST', 'https://api.staging.updater.com/graphql', (req) => {
+    cy.intercept('POST', '/graphql', (req) => {
     if (req.body.hasOwnProperty('query') && req.body.query.includes('availableOffers')) {
       req.alias = 'gqlAvailableOffers'
     }

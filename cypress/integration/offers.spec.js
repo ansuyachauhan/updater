@@ -4,7 +4,7 @@ import {removeNonNumbers} from "../fixtures/commonFunctions"
 import availableOffersgql from "../requests/graphqlRequest"
 import offersPage from "../pages/offersPage"
 
-context("Updater Page Tests ", () => {
+context("Updater Offers Page Tests ", () => {
     beforeEach(() => {
       //intercepting graphql request where query matches with avaiableOffers
       availableOffersgql();
